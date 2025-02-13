@@ -1,201 +1,1 @@
-node_modules/
-entrypoint="index.html"
-hidden=[".config"]
-modules = ["web:v2-20230623-0b7a606"]
 
-[nix]
-channel = "stable-23_11"
-
-[deployment]
-publicDir = "/"
-deploymentTarget = "static"
-
-     <!DOCTYPE html>
-<html lang="ar">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>قسم شرطة عرب هاوس</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>قسم شرطة عرب هاوس</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">الرئيسية</a></li>
-                <li><a href="rules.html">قوانين الشرطة</a></li>
-                <li><a href="officers.html">الضباط</a></li>
-                <li><a href="wanted.html">المطلوبين</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <h2>مرحباً بك في موقع شرطة عرب هاوس!</h2>
-        <p>تعتبر شرطة عرب هاوس الجهة المسؤولة عن حفظ الأمن والنظام داخل المدينة، حيث يعمل ضباطنا على تطبيق القوانين، ومكافحة الجريمة، وحماية المواطنين من أي تهديدات. نحن نلتزم بأعلى معايير الاحترافية والانضباط لضمان بيئة آمنة ومستقرة للجميع. يمكنك عبر موقعنا معرفة قائمة الضباط، الاطلاع على القوانين المعتمدة، وكذلك متابعة قائمة المطلوبين.</p>
-    </section>
-    <footer>
-        <p>تصميم وتطوير: يحيى - جميع الحقوق محفوظة لسيرفر عرب هاوس</p>
-    </footer>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>الضباط - قسم شرطة عرب هاوس</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>الضباط - قسم شرطة عرب هاوس</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">الرئيسية</a></li>
-                <li><a href="rules.html">قوانين الشرطة</a></li>
-                <li><a href="officers.html">الضباط</a></li>
-                <li><a href="wanted.html">المطلوبين</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <h2>الرقابة العليا</h2>
-        <ul>
-            <li>𝗦𝗨𝗟𝗧𝗔𝗡 – فريق / RMS19g A-3 – المقدم</li>
-        </ul>
-        <h2>ضباط الشرطة</h2>
-        <ul>
-            <li>FAWAZ JALAL AL-JANAZAH – F-2 – ملازم</li>
-            <li>𝐁𝐚𝐧𝐝𝐚𝐫 𝐆 - 𝟎 – ملازم أول</li>
-            <li>Naser (@nqzl81) | F-1 – ملازم أول</li>
-        </ul>
-    </section>
-    <footer>
-        <p>تصميم وتطوير: يحيى - جميع الحقوق محفوظة لسيرفر عرب هاوس</p>
-    </footer>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>قوانين شرطة مدينة عرب هاوس</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>قوانين شرطة مدينة عرب هاوس</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">الرئيسية</a></li>
-                <li><a href="officers.html">الضباط</a></li>
-                <li><a href="rules.html">قوانين الشرطة</a></li>
-                <li><a href="wanted.html">المطلوبين</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <h2>قوانين الشرطة</h2>
-        <ul>
-            <li>◈ [ 1 ] عدم التسلط على المواطنين والرتب الأقل منك والاحترام المتبادل واجب.</li>
-            <li>◈ [ 2 ] الجدية في العمل وعدم أخذ الوظيفة على محمل كوميدي.</li>
-            <li>◈ [ 3 ] الالتزام بالملابس والمركبات والأسلحة الخاصة برتبتك.</li>
-            <li>◈ [ 4 ] يمنع بيع أو إعطاء معدات الشرطة للمواطنين أو المسعفين.</li>
-            <li>◈ [ 5 ] يمنع استخدام سيارات المواطنين إلا عند الحاجة وطلب وحدة نقل.</li>
-            <li>◈ [ 6 ] عدم إظهار السلاح إلا في الحالات القصوى فقط.</li>
-            <li>◈ [ 7 ] لا يحق لك إرسال الشخص للسجن بدون دليل مثبت.</li>
-            <li>◈ [ 8 ] يجب تفتيش المجرم قبل السجن وأخذ الممنوعات منه.</li>
-            <li>◈ [ 9 ] استخدام الراديو فقط للتبليغ والتواصل باحترافية.</li>
-            <li>◈ [ 10 ] التحية العسكرية إجبارية ومن يرفضها يعاقب.</li>
-            <li>◈ [ 11 ] لا يُسمح بتفتيش المواطن إلا في مركز الشرطة أو حالات الاشتباه.</li>
-            <li>◈ [ 12 ] الالتزام بالزي الرسمي كاملاً مع إمكانية إضافة درع يحمل شعار الشرطة.</li>
-        </ul>
-    </section>
-</body>
-</html>
-
-
-body {
-  font-family: Arial, sans-serif;
-  direction: rtl;
-  text-align: center;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background: #003366;
-  color: white;
-  padding: 15px;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin: 10px;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-section {
-  background: white;
-  margin: 20px auto;
-  padding: 20px;
-  width: 80%;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px gray;
-}
-
-footer {
-  background: #003366;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
-
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-    <!DOCTYPE html>
-    <html lang="ar">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>المطلوبين</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <h1>قائمة المطلوبين</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">الرئيسية</a></li>
-                    <li><a href="officers.html">الضباط</a></li>
-                    <li><a href="rules.html">قوانين الشرطة</a></li>
-                    <li><a href="wanted.html">المطلوبين</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section>
-            <h2>هنا يمكنك رؤية قائمة المطلوبين.</h2>
-            <p>سيتم تحديث القائمة قريباً...</p>
-        </section>
-    </body>
-    </html>
-"style.css">
